@@ -1,6 +1,7 @@
 .heading {
     text-align: center;
     font-size: 18px;
+    background-color: green
 }
 
 .question-area {
@@ -10,5 +11,18 @@
     padding: 50px 0;
     font-size: 16px;
     text-align: center;
+    background-color:blue
 }
 
+#difficulty-buttons {
+    background-color: red;
+}
+
+.dif-btn {
+    height: 30px;
+    width: 100px;
+    margin: 25px 25px;
+    background-color: gold;
+    border: 2px transparent;
+    border-radius: 20px;
+}
