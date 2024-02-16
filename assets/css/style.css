@@ -1,9 +1,9 @@
+.heading {
+    text-align: center;
+    font-size: 18px;
+}
 
-
-
-
-
-.question-area{
+.question-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
