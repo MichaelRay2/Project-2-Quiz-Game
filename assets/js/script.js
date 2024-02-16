@@ -66,7 +66,7 @@ let questions = [
         ]
     },
     {
-        question: "Who is Tottenham Hotspur's most expensive signing?", 
+        question: "As of the beginning of 2024, who is Tottenham Hotspur's most expensive signing?", 
         answers: [
             { text: "Christian Romero", correct: false},
             { text: "Brennan Johnson", correct: false},
@@ -76,4 +76,8 @@ let questions = [
             { text: "Tanguy Ndombele", correct: true},
         ]
     }
-]
+];
+
+let questionElement = document.getElementById("questions");
+let answerButton = document.getElementById("answer-buttons");
+let nextButton = document.getElementById("answer-buttons")
