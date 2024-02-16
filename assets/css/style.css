@@ -26,3 +26,8 @@
     border: 2px transparent;
     border-radius: 20px;
 }
+.nxt-btn {
+    height: 50px;
+    width: 150px;
+    margin: 25px 25px;
+}
