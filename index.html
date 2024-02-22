@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engine -->
     <meta name="description" content="Capital Cities Quiz">
-    <meta name="keywords" content="benedictine, Cramlington, pub, watch, sports">
+    <meta name="keywords" content="Capital, Cities, Quiz">
     <!-- Title -->
     <title>Football and Capital Cities Quiz</title>
     <!-- Favicon links -->
@@ -14,43 +14,26 @@
     <link rel="icon" sizes="100x100" type="image/png" href="assets/favicon/icons8-quiz-100.png">
     <!-- Link to CSS Sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Link to JS Sheet-->
-    <script src="assets/js/script.js"></script>
     <!-- Font Awesome Kit Link -->
     <script src="https://kit.fontawesome.com/e775e6885e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="heading">
-        <!-- Name of the game along with logo icon -->
-            <a href="index.html"><h1><i class="fa-solid fa-earth-americas"></i></a> Capital Cities Quiz</h1>
+    <div class="app">
+        <h1>Capital Cities and Football Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question Goes Here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+                <button class="btn">Answer 5</button>
+                <button class="btn">Answer 6</button>
 
-        </div>
-    </header>
-    <main>
-        <div class="question-area">
-            <h2>Select difficulty to start the game!<br>Normal gives you 2 lives.<br>Hard gives you 1 life.<br></h2>
-            <div id="difficulty-buttons">
-                <button type="button" data-type="Normal" class="dif-btn">Normal</button>
-                <button type="button" data-type="Hard" class="dif-btn">Hard</button>
             </div>
         </div>
-        <!-- Question Screen to be shown once difficuty has been picked -->
-        <div class="question-area">
-            <h3 id="question">Question here</h3>
-            <div class="answer-buttons">
-                <button class="ans-btn">Answer 1</button>
-                <button class="ans-btn">Answer 2</button>
-                <button class="ans-btn">Answer 3</button>
-                <button class="ans-btn">Answer 4</button>
-                <button class="ans-btn">Answer 5</button>
-                <button class="ans-btn">Answer 6</button>
-            </div>
-            <button class="nxt-btn">Next Question</button>
-
-        </div>
-
-    </main>
-    
+        <button id="next-btn">Next</button>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
